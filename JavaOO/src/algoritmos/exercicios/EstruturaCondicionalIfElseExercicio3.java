@@ -1,0 +1,29 @@
+package algoritmos.exercicios;
+
+import java.util.Scanner;
+
+public class EstruturaCondicionalIfElseExercicio3 {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		
+		int a, b;
+		
+		System.out.println("Digite um número A:  ");
+		a = scanner.nextInt();
+		
+		System.out.println("Digite um número B:  ");
+		b = scanner.nextInt();
+		
+		if (a % b == 0 || b % a == 0) {
+			System.out.println("São Multiplos");
+		} else {
+			System.out.println("Não são Multiplos");
+		}
+	
+		scanner.close();
+		
+	}
+
+}

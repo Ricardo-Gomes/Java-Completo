@@ -1,0 +1,10 @@
+package algoritmos.exemplos;
+
+public class Aula35EstruturaCondicionalIfElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

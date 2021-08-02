@@ -1,0 +1,21 @@
+package algoritmos;
+
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double x = 10.35784;
+		
+		System.out.println(x);
+		
+		//mascara para delimitar separador de decimais com o idioma local
+		System.out.printf("%.2f%n", x);
+		
+		//mascara para delimitar separador de decimais com outro idioma
+		Locale.setDefault(Locale.US);
+		System.out.printf("%.2f%n", x);
+	}
+
+}

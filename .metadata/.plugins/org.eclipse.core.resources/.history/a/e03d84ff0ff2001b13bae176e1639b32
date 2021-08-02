@@ -1,0 +1,24 @@
+package aula06;
+
+import java.util.Scanner;
+
+public class Media {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		double x, y, media;
+
+		System.out.println("Digite o primeiro numero: ");
+		x = scanner.nextDouble();
+
+		System.out.println("Digite o segundo numero: ");
+		y = scanner.nextDouble();
+		
+		media = (x + y) / 2.0;
+		
+		System.out.println("Media = " + media);
+		scanner.close();
+	}
+
+}

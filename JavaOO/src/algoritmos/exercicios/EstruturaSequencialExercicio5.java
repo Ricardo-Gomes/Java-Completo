@@ -1,0 +1,39 @@
+package algoritmos.exercicios;
+
+import java.util.Scanner;
+
+public class EstruturaSequencialExercicio5 {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		
+		int qtd1, qtd2, codigoPeca1, codigoPeca2;
+		double valorUnitario1, valorUnitario2, valorAPagar;
+		
+		System.out.println("Digite o código de peças 1: ");
+		codigoPeca1 = scanner.nextInt();
+
+		System.out.println("Digite a quantidade de peças 1: ");
+		qtd1 = scanner.nextInt();
+		
+		System.out.println("Digite o valor unitário das peças 1: ");
+		valorUnitario1 = scanner.nextDouble();
+		
+		System.out.println("Digite o código de peças 2: ");
+		codigoPeca2 = scanner.nextInt();
+		
+		System.out.println("Digite a quantidade de peças 2: ");
+		qtd2 = scanner.nextInt();
+		
+		System.out.println("Digite o valor unitário das peças 2: ");
+		valorUnitario2 = scanner.nextDouble();
+		
+		valorAPagar = valorUnitario1 * qtd1 + valorUnitario2 * qtd2;
+		
+		System.out.println("VALOR A PAGAR: " + valorAPagar);
+		
+		scanner.close();
+	}
+
+}

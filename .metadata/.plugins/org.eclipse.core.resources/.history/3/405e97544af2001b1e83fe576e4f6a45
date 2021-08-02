@@ -1,0 +1,31 @@
+package algoritmos.exercicios;
+
+import java.util.Scanner;
+
+public class EstruturaSequencialExercicio5 {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		
+		int numero, horasTrabalhadas;
+		double  valorHoras, salario;
+		
+		System.out.println("Digite o número do Funcionário ");
+		numero = scanner.nextInt();
+		
+		System.out.println("Horas trabalhadas ");
+		horasTrabalhadas = scanner.nextInt();
+		
+		System.out.println("Valor por hora trabalhada ");
+		valorHoras = scanner.nextDouble();
+		
+		salario = valorHoras * horasTrabalhadas ;
+
+		System.out.println("Número : " + numero );
+		System.out.printf("Salário : R$ %.2f%n" , salario );
+		
+		scanner.close();
+	}
+
+}

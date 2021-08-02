@@ -1,0 +1,18 @@
+package algoritmos.exercicios;
+
+import java.util.Scanner;
+
+public class EstruturaSequencialExercicio1 {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		int a , b, soma;
+		
+		
+		a = scanner.nextInt();
+		b = scanner.nextInt();
+		soma = a + b ;
+	}
+
+}

@@ -1,0 +1,14 @@
+package algoritmos;
+
+public class ExemploAula25 {
+
+	public static void main(String[] args) {
+
+		float b = 6f, B = 8f, h = 5f, area;
+		
+		area = (b+B) / 2f * h;
+		
+		System.out.println(area);
+	}
+
+}
