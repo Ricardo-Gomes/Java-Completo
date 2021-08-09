@@ -1,6 +1,6 @@
 package algoritmos.exemplos;
 
-public class EstruturaRepetitivaFor2 {
+public class Aula50EstruturaRepetitivaFor2 {
 
 	public static void main(String[] args) {
 
